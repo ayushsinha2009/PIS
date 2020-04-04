@@ -1,0 +1,591 @@
+﻿.center
+{
+    text-align: center;
+}
+
+.center-page
+{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: -40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.space-vert
+{
+    margin-top: 20px;
+}
+
+.footer-pos
+{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 600px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+body
+{
+    /*padding-top: 50px;*/
+}
+
+/*products.aspx*/
+.probrand
+{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.proName
+{
+    font-size: 13px;
+    line-height: 17px;
+    font-family: sans-serif;
+}
+
+.proPrice
+{
+    font-size: 14px;
+    line-height: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.proOgPrice
+{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.proPriceDiscount
+{
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: deeppink;
+}
+
+/*productview*/
+.proNameView
+{
+    font-size: 20px;
+    line-height: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #696e80;
+}
+
+.proOgPriceView
+{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.proPriceDiscountView
+{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: deeppink;
+}
+
+.proPriceView
+{
+    font-size: 16px;
+    line-height: 17px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.divDet1
+{
+    border-bottom: 1px dashed #D5D6D8;
+    margin-bottom: 20px;
+}
+
+.h5Size
+{
+    font-weight: 600;
+}
+
+input[type=radio]
+{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.mainButton
+{
+    border-radius: 3px;
+    outline: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    min-height: 22px;
+    padding: 10px 15px;
+    min-width: 108px;
+    font-weight: 500;
+    background-color: #FF5722;
+    border: 1px solid #FF5722;
+    color: #fff;
+}
+
+#btnCart
+{
+    margin-right: 6px;
+}
+
+/*Cart*/
+.proNameViewCart
+{
+    font-size: 15px;
+    line-height: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #696e80;
+}
+
+.removeButton
+{
+    border-radius: 3px;
+    outline: 0;
+    margin-top: 10px;
+    font-size: 13px;
+    min-height: 22px;
+    min-width: 90px;
+    font-weight: 500;
+    background-color: #FF5722;
+    border: 1px solid #FF5722;
+    color: #fff;
+}
+
+.priceGray
+{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: dimgray;
+}
+
+.priceGreen
+{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #20bd99;
+}
+
+.buyNowBtn
+{
+    border-radius: 3px;
+    outline: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    min-height: 22px;
+    padding: 10px 15px;
+    font-weight: 500;
+    background-color: #14cda8;
+    border: 1px solid #14cda8;
+    color: #fff;
+    width: 100%;
+}
+.min_top_logo
+{
+    height: 45px;
+    margin-top: 0px;
+}
+
+.button_Tranch
+{
+    min-width: 80px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    background-color: #9896D0;
+    cursor: pointer;
+    cursor: hand;
+    display: inline-block;
+    font-family: Arial, Verdana, "Nimbus Sans L" , sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    height: 25px;
+    line-height: 18px;
+    outline: none;
+    padding: 0 5px; /*text-shadow: 0 1px 0 white;*/
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.button_Dash
+{
+    min-width: 200px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    background-color: #9896D0;
+    cursor: pointer;
+    cursor: hand;
+    display: inline-block;
+    font-family: Arial, Verdana, "Nimbus Sans L" , sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    height: 25px;
+    line-height: 18px;
+    outline: none;
+    padding: 0 5px; /*text-shadow: 0 1px 0 white;*/
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.button_Vt
+{
+    min-width: 100px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px; /*box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);*/
+    color: #FFFFFF;
+    background-color: #9896D0;
+    cursor: pointer;
+    cursor: hand;
+    display: inline-block;
+    font-family: Arial, Verdana, "Nimbus Sans L" , sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.2em;
+    outline: none;
+    padding: 0px 0px 0px 0px; /*text-shadow: 0 1px 0 white;*/
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.button_V1R_Home
+{
+    float: right;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    background-color: #FBAE4B;
+    cursor: pointer;
+    cursor: hand;
+    display: inline-block;
+    font-family: Arial, Verdana, "Nimbus Sans L" , sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    height: 25px;
+    line-height: 18px;
+    outline: none;
+    padding: 0 5px; /*text-shadow: 0 1px 0 white;*/
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.button_Header_right
+{
+    font-size: 10pt;
+    font-weight: 600;
+    height: 25px;
+    margin-top: 0px;
+    float: right;
+}
+.button_V1R_Header
+{
+    float: right;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);
+    color: black;
+    cursor: pointer;
+    cursor: hand;
+    display: inline-block;
+    font-family: Arial, Verdana, "Nimbus Sans L" , sans-serif;
+    font-size: 10pt;
+    font-weight: 600;
+    height: 25px;
+    line-height: 18px;
+    outline: none;
+    margin-top: 0px;
+    padding: 0 5px; /*text-shadow: 0 1px 0 white;*/
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.button_V1R
+{
+    float: right;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    background-color: #9896D0;
+    cursor: pointer;
+    cursor: hand;
+    display: inline-block;
+    font-family: Arial, Verdana, "Nimbus Sans L" , sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    height: 25px;
+    line-height: 18px;
+    outline: none;
+    padding: 0 5px; /*text-shadow: 0 1px 0 white;*/
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.button_V1R1
+{
+    float: right;
+    margin: auto 5px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    background-color: #9896D0;
+    cursor: pointer;
+    cursor: hand;
+    display: inline-block;
+    font-family: Arial, Verdana, "Nimbus Sans L" , sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    height: 25px;
+    line-height: 18px;
+    outline: none;
+    padding: 0 5px; /*text-shadow: 0 1px 0 white;*/
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.button_V1L
+{
+    float: left;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    background-color: #9896D0;
+    cursor: pointer;
+    cursor: hand;
+    display: inline-block;
+    font-family: Arial, Verdana, "Nimbus Sans L" , sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    height: 25px;
+    line-height: 18px;
+    outline: none;
+    padding: 0 5px; /*text-shadow: 0 1px 0 white;*/
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.button_V1C
+{
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    background-color: #9896D0;
+    cursor: pointer;
+    cursor: hand;
+    display: inline-block;
+    font-family: Arial, Verdana, "Nimbus Sans L" , sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    height: 25px;
+    line-height: 18px;
+    outline: none;
+    padding: 0 5px; /*text-shadow: 0 1px 0 white;*/
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.button_V1C1
+{
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+    background-color: #9896D0;
+    cursor: pointer;
+    cursor: hand;
+    display: inline-block;
+    font-family: Arial, Verdana, "Nimbus Sans L" , sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    height: 25px;
+    line-height: 18px;
+    outline: none;
+    padding: 0 15px; /*text-shadow: 0 1px 0 white;*/
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.button_V2
+{
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #9896D0;
+    cursor: pointer;
+    cursor: hand;
+    display: inline-block;
+    font-family: Arial, Verdana, "Nimbus Sans L" , sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    height: 18px;
+    line-height: 16px;
+    outline: none;
+    padding: 0 5px;
+    margin: 2px auto;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.txtBx
+{
+    border-radius: 5px;
+    border-style: solid;
+    width: 100%;
+}
+
+.txtBx_Vis5
+{
+    border: 2px solid #aaa !important;
+    border-radius: 5px;
+    border-style: solid;
+    line-height: 1.5em;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.secBx
+{
+    max-height: 35px;
+    min-height: 30px;
+    height: 35px;
+}
+
+.txt_right
+{
+    text-align: right;
+    padding-right: 5px;
+}
+.txt_center
+{
+    text-align: center;
+}
+
+.txtLbl
+{
+    line-height: 1.6em;
+}
+
+.pad_H_T_5
+{
+    padding-top: 5px;
+}
+.pad_H_5
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.pad_H_10
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.pad_H_T_10
+{
+    padding-top: 10px;
+}
+
+.registrationBox
+{
+    border: 1px dotted Grey;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.grey
+{
+    background-color: #c2c2c2;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.head_top
+{
+    line-height: 2.0em;
+}
+
+
